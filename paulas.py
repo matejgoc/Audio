@@ -1038,7 +1038,7 @@ def smiley(x):
 
 def documentation(x):
     print("Upcoming-hearing aid parts customization? accessories?")
-    print("      -MORE COWBELL erm I mean booleans... to minimize redundancy)
+    print("      -MORE COWBELL erm I mean booleans... to minimize redundancy")
 
     print("v1.3  -major naming and pronoun update")
     print("      -running multiple reports on the same criteria (ht + aud)")
