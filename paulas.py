@@ -1,7 +1,7 @@
 import random
 
 outcome=["","","","","","","","","","","","","","","","","","","","","","",""]
-audiologist = ["Paula", " Sanding, M.Cl.Sc. Audiologist, Reg. CASLPO","PS"]
+audiologist = ["John", " Smith, M.Cl.Sc. Audiologist, Reg. CASLPO","JS"]
 namea=["name","his/her","him/her","he/she"]
 nameb=[""]
 bnoun=["spouse"]
@@ -11,8 +11,7 @@ prevhas=False
 def chkabcde(x,upper):
     abcde= str(list(range(1,upper)))
     if x == "/":
-        countht[0]-=2
-        countaud[0]-=2
+        count[0]-=2
         return x
     if x in abcde and x != "":
         return x
